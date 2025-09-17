@@ -1,56 +1,70 @@
-
 <!DOCTYPE html>
-
 <html lang="it">
 <head>
 <meta charset="utf-8"/>
 <title>Masai Safari - Watamu, Kenya</title>
 <style>
-        body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f4f4f4; }
-        header { background: #2c3e50; color: white; padding: 20px 0; text-align: center; }
-        section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
-        h1, h2 { color: #2c3e50; }
-        ul { list-style: none; padding: 0; }
-        li { margin-bottom: 10px; }
-        .map-container { text-align: center; margin-top: 20px; }
-        iframe { width: 100%; height: 300px; border: none; border-radius: 8px; }
-    </style>
+    body { font-family: Arial, sans-serif; line-height: 1.6; margin: 20px; background-color: #f4f4f4; }
+    header { 
+        color: white; 
+        padding: 20px 0; 
+        text-align: center; 
+        background: url('images/savana-caratteristiche.jpg') center center/cover no-repeat; 
+        min-height: 250px;
+        box-shadow: 0 4px 20px rgba(0,0,0,0.2);
+        position: relative;
+    }
+    header::after {
+        content: "";
+        position: absolute;
+        left: 0; top: 0; right: 0; bottom: 0;
+        background: rgba(44,62,80,0.5);
+        z-index: 1;
+    }
+    header > * { position: relative; z-index: 2; }
+    section { background: white; padding: 20px; margin-bottom: 20px; border-radius: 8px; }
+    h1, h2 { color: #2c3e50; }
+    ul { list-style: none; padding: 0; }
+    li { margin-bottom: 10px; }
+    .map-container { text-align: center; margin-top: 20px; }
+    iframe { width: 100%; height: 300px; border: none; border-radius: 8px; }
+</style>
 </head>
 <body>
 <header>
-<h1>Masai Safari - Watamu, Kenya</h1><div style="text-align:center; margin-top:20px;"><figure style="display:inline-block; margin:10px;"><img alt="Elefante Safari" height="150" src="images/IMG-20211128-WA0002.jpg" style="display:block; margin:auto;" width="200"/></figure><figure style="display:inline-block; margin:10px;"><img alt="Leone Safari" height="150" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fit.freepik.com%2Ffoto-vettori-gratuito%2Fgiraffa-nera-africana&psig=AOvVaw18uS7JmlYBPaaTRDejipEi&ust=1758204995619000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMiT-pL-348DFQAAAAAdAAAAABAL" style="display:block; margin:auto;" width="200"/></figure><figure style="display:inline-block; margin:10px;"><img alt="Giraffa Safari" height="150" src="https://www.google.com/url?sa=i&url=https%3A%2F%2Flamiapassioneperglianimali.weebly.com%2Fspazio-natura%2Fcategory%2Fsavana&psig=AOvVaw3IDo2MI0R8-3mCwSBY9L87&ust=1758205033492000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCOj0q6X-348DFQAAAAAdAAAAABAK" style="display:block; margin:auto;" width="200"/></figure></div>
-<p>Scopri le meraviglie del Kenya con Masai- Guida Locale</p>
+    <h1>Masai Safari - Watamu, Kenya</h1>
+    <p>Scopri le meraviglie del Kenya con Masai</p>
 </header>
 <section>
-<h2>🌍 Escursioni Disponibili / Available Tours</h2>
-<ul>
-<li>🦁 Safari di 2 giorni / 2-day Safari – 290€</li>
-<li>🌊 Safari Blue – 100€</li>
-<li>🏝️ Robinson Island – 100€</li>
-<li>🏛️ Rovine di Gede /Gede's ruins – 100€</li>
-<li>🔥 Hells Kitchen – 100€</li>
-<li>🦀 Crab Shark – 100€</li>
-</ul>
+    <h2>🌍 Escursioni Disponibili / Available Tours</h2>
+    <ul>
+        <!-- Rimosso Safari di 2 giorni, Elefante Safari e Giraffa Safari -->
+        <li>🌊 Safari Blue – 100€</li>
+        <li>🏝️ Robinson Island – 100€</li>
+        <li>🏛️ Rovine di Gede – 100€</li>
+        <li>🔥 Hells Kitchen – 100€</li>
+        <li>🦀 Crab Shark – 100€</li>
+    </ul>
 </section>
 <section>
-<h2>🎯 Offerte Combinate / Combo Offers</h2>
-<ul>
-<li>Rovine di Gede + giro villaggio + Watamu – 100€ / Gede Ruins + Village tour+ Watamu - 100€</li>
-<li>Robinson + Hells Kitchen – 100€</li>
-<li>Crab Shark + villaggio Giryama + danza tribale – 100€ / Crab Shark + Giryama Village + tribal dance 100€</li>
-</ul>
+    <h2>🎯 Offerte Combinate / Combo Offers</h2>
+    <ul>
+        <li>Rovine + giro villaggio + Watamu – 100€ a testa</li>
+        <li>Robinson + Hells Kitchen – 100€</li>
+        <li>Crab Shark + villaggio Giryama + danza tribale – 100€</li>
+    </ul>
 </section>
 <section>
-<h2>📍 Dove Siamo / Location</h2>
-<div class="map-container">
-<iframe src="https://www.google.com/maps?q=Watamu,+Kenya&amp;output=embed"></iframe>
-</div>
+    <h2>📍 Dove Siamo / Location</h2>
+    <div class="map-container">
+        <iframe src="https://www.google.com/maps?q=Watamu,+Kenya&amp;output=embed"></iframe>
+    </div>
 </section>
 <section>
-<h2>📞 Contatti / Contact</h2>
-<p>Per prenotazioni o informazioni, contatta Masai su WhatsApp:</p>
-<p><a href="https://wa.me/254707536177" target="_blank">📱 Chatta con Masai su WhatsApp</a></p>
-<p>Numero: +254707536177</p>
+    <h2>📞 Contatti / Contact</h2>
+    <p>Per prenotazioni o informazioni, contatta Masai su WhatsApp:</p>
+    <p><a href="https://wa.me/254707536177" target="_blank">📱 Chatta con Masai su WhatsApp</a></p>
+    <p>Numero: +254707536177</p>
 </section>
 </body>
 </html>
